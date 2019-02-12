@@ -2747,7 +2747,7 @@
 			color: #ffffff;
 			display: inline-block;
 			font-weight: 600;
-			height: inherit;
+			/* height: inherit; */
 			left: 0;
 			line-height: inherit;
 			margin: 0;
@@ -2755,6 +2755,7 @@
 			position: absolute;
 			top: 0;
 			font-size: 1em;
+			height: 100px;
 		}
 
 		#header a {
@@ -2941,7 +2942,7 @@
         padding-top: 100px !important;
         padding-bottom: 50px !important;
         */
-		background-image: url('/images/banner.jpg');
+		background-image: url('/images/big-data-2001190_1920.jpg');
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
@@ -2960,7 +2961,7 @@
 		}
 
 		#banner p {
-			font-size: 1em;
+			font-size: 1.5em;
 			color: rgba(255, 255, 255, 0.55);
 			margin-bottom: 1.75em;
 		}
