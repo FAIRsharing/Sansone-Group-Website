@@ -47,6 +47,7 @@
 
 	body {
 		-webkit-text-size-adjust: none;
+		padding: 5px;
 	}
 
 /* Box Model */
@@ -1764,7 +1765,6 @@
 			.inner {
 				max-width: 90%;
 			}
-
 		}
 
 		@media screen and (max-width: 480px) {
@@ -1880,6 +1880,13 @@
 	header h6 + p {
 		font-size: 0.9em;
 		margin-top: -0.6em;
+	}
+
+    @media screen and (max-width: 980px) {
+		header .img-header {
+			max-width: 40%;
+
+		}
 	}
 
 /* Flex */
@@ -2202,6 +2209,10 @@
 			border: solid 1px rgba(255, 255, 255, 0.25);
 			padding: 3em 1.5em;
 		}
+
+			.box.person li {
+				list-style-type: none;
+			}
 
 			.box.person h3 {
 				margin: 0;
@@ -2948,7 +2959,9 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
+		/*
 		border-top: 0.5em solid #5385c1;
+		*/
 	}
 
 		#banner h1 {
@@ -2956,7 +2969,8 @@
 			font-weight: 100;
 			color: #fff;
 			line-height: 1em;
-			margin: 0 0 0.5em 0;
+			/* margin: 0 0 0.5em 0; */
+			margin-top: 50px;
 			padding: 0;
 		}
 
@@ -3073,3 +3087,40 @@
 		}
 
 	}
+
+/*
+ * Responsive YouTube video from:
+ * https://avexdesigns.com/responsive-youtube-embed/
+ */
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.logo-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px; height: 0; overflow: scroll;
+}
+
+.fa {
+	padding: 5px;
+}
+
+.person-link {
+	color: white;
+	text-decoration: none;
+}
