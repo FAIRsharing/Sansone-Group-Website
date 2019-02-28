@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
+@import "https://fonts.googleapis.com/css?family=Teko:100,300,600|Barlow:100,300,600";
 
 /*
 	Theory by TEMPLATED
@@ -10,14 +10,29 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	/*
+	 * TODO: Obtain Tenby Four font from Engineering.
+	 */
+
+	html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
+        font-family: Barlow !important;
 		vertical-align: baseline;
 	}
+
+    h1, h2, h3, h4, h5, h6 {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+        font-family: Barlow !important;
+		vertical-align: baseline;
+	}
+
+
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -1882,9 +1897,15 @@
 		margin-top: -0.6em;
 	}
 
+	header .img-header {
+		max-width: 40%;
+		float: left;
+	}
+
     @media screen and (max-width: 980px) {
 		header .img-header {
 			max-width: 40%;
+
 
 		}
 	}
@@ -3109,13 +3130,6 @@
 	height: 100%;
 }
 
-
-.logo-container {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 30px; height: 0; overflow: scroll;
-}
-
 .fa {
 	padding: 5px;
 }
@@ -3123,4 +3137,22 @@
 .person-link {
 	color: white;
 	text-decoration: none;
+}
+
+.project-logo {
+	max-width:100%;
+	max-height:100%;
+}
+
+.logo-container {
+	max-width:100%;
+	max-height:100%;
+}
+
+.logo-container ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    max-width:100%;
+	max-height:100%;
 }
