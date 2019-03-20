@@ -2686,6 +2686,12 @@
 			background-color: #5385c1;
 			color: #ffffff !important;
 		}
+		.button.special-inverted {
+			background-color: #f1f1f1 !important;
+			color: #5385c1 !important;
+			border-radius: 10px;
+			padding: 0px 15px 10px 15px;
+		}
 
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
@@ -3163,4 +3169,9 @@
 .activities-image {
 	border-radius: 15px;
 	border: 1px solid #3d61ad;
+}
+
+.twitter-wrapper {
+	background-color: rgba(37, 37, 74, 0.92);
+    border-radius: 10px;
 }
