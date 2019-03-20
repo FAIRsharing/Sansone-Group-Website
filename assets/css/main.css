@@ -118,7 +118,7 @@
 
 	}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1510px) {
 
 		.container.\31 \25 {
 			width: 100%;
@@ -695,7 +695,7 @@
 
 	}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1510px) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -1607,7 +1607,7 @@
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1510px) {
 
 			body, input, select, textarea {
 				font-size: 11pt;
@@ -1764,7 +1764,7 @@
 		margin: 0 auto;
 	}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1510px) {
 
 			.inner {
 				max-width: 90%;
@@ -2690,7 +2690,7 @@
 			background-color: #f1f1f1 !important;
 			color: #5385c1 !important;
 			border-radius: 10px;
-			padding: 0px 15px 10px 15px;
+			padding: 0px 20px 20px 20px;
 		}
 
 			input[type="submit"].special:hover,
@@ -3010,7 +3010,7 @@
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1510px) {
 
 			#banner {
 				padding: 10em 2em 8em 2em;
@@ -3175,3 +3175,16 @@
 	background-color: rgba(37, 37, 74, 0.92);
     border-radius: 10px;
 }
+
+.team-blurb p {
+	font-size: 1.1em !important;
+}
+
+.bossbox {
+	text-align: center;
+}
+
+.bossbox img {
+	display: inline;
+}
+
