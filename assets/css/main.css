@@ -2789,7 +2789,7 @@
 
 		#header nav {
 			font-size: 1.1em;
-			font-weight: 200;
+			font-weight: 500;
 		}
 
 		#header a {
@@ -2998,7 +2998,7 @@
 		#banner p {
 			font-size: 1.5em;
             font-weight: 400;
-			color: rgba(255, 255, 255, 0.55);
+			color: #ffffff;
 			margin-bottom: 1.75em;
 		}
 
@@ -3144,8 +3144,8 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-width:50%;
-	max-height:50%;
+	max-height: 100px;
+	min-height: 80px;
 }
 
 .logo-container {
@@ -3172,7 +3172,7 @@
 }
 
 .twitter-wrapper {
-	background-color: rgba(37, 37, 74, 0.92);
+	background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
 }
 
@@ -3187,4 +3187,3 @@
 .bossbox img {
 	display: inline;
 }
-
