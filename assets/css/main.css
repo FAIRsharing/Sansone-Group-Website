@@ -1663,7 +1663,6 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #5385c1;
-		font-weight: 300;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
 	}
@@ -1675,7 +1674,6 @@
 
 	h2 {
 		font-size: 1.75em;
-		font-weight: 100;
 	}
 
 	h3 {
@@ -1864,7 +1862,6 @@
 		}
 
 	header p {
-		color: #bbb;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2993,6 +2990,7 @@
 			/* margin: 0 0 0.5em 0; */
 			margin-top: 50px;
 			padding: 0;
+            margin-bottom: 0em;
 		}
 
 		#banner p {
@@ -3000,6 +2998,7 @@
             font-weight: 400;
 			color: #ffffff;
 			margin-bottom: 1.75em;
+			margin_top: 0em;
 		}
 
 		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -3186,4 +3185,9 @@
 
 .bossbox img {
 	display: inline;
+}
+
+.personbox {
+	margin-top: 0em;
+	margin-bottom: 0em;
 }
