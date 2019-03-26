@@ -3190,6 +3190,12 @@
 .personbox {
 	margin-top: 0em;
 	margin-bottom: 0em;
+
+}
+
+.personbox a {
+	color: white;
+	text-decoration: none;
 }
 
 .para-blurb {
