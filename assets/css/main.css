@@ -1,5 +1,7 @@
 @charset "UTF-8";
+/*
 @import url(font-awesome.min.css);
+*/
 @import "https://fonts.googleapis.com/css?family=Barlow:100,300,600";
 
 /*
@@ -22,7 +24,6 @@
         font-family: Barlow;
 		vertical-align: baseline;
 	}
-
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -3131,6 +3132,9 @@
 }
 
 .fa {
+	padding: 5px;
+}
+.fab {
 	padding: 5px;
 }
 
