@@ -3228,11 +3228,90 @@
 	max-width: 1200px;
 	margin: 0 auto;
 	display: grid;
-	gap: 1rem;
+	gap: 23% 42px;
 	align-items: center;
+	grid-template-columns: repeat(2, 1fr);
 }
-@media (min-width: 600px) {
-	.logo-container { grid-template-columns: repeat(2, 1fr); }
-  }
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+	.logo-container { 
+		gap: 66px;
+		margin: 0 auto -42px auto;
+	}
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+	.logo-container { 
+		gap: 66px;
+		margin: 0 auto -42px auto;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	.logo-container { 
+		margin: 0 auto -49px auto;
+		gap: 82px;
+	}
+	.proj-logo{
+		max-width: 300px;
+	}
+}
+
+@media all and (min-device-width: 768px)
+ and (max-device-width: 1024px) {
+	.logo-container {
+		gap: 16% 42px;
+		margin: 0 auto -42px auto;
+	}
+}
+
+@media all and (min-width: 992px)
+ and (max-width: 1200px) {
+	.logo-container {
+		gap: 16% 42px;
+		margin: 0 auto -42px auto;
+	}
+}
+
+@media all and (min-width: 768px)
+ and (max-width: 1024px)
+ and (orientation: portrait) {
+	.logo-container {
+		margin: 0 auto 110px auto;
+	}
+}
+
+/* ----------- Mobile ----------- */
+
+
+@media only screen 
+  and (max-width: 768px)  { 
+	.logo-container {
+		gap: 42px;
+		margin: 0 auto;
+	}
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+	.logo-container {
+		gap: 42px;
+		margin: 0 auto;
+	}
+}
   
 /* */
